@@ -1,0 +1,27 @@
+{
+  "name": "babelify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "rollup": "^1.9.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "babel-helper-evaluate-path": "^0.5.0",
+    "rollup-plugin-babel-minify": "^8.0.0"
+  }
+}
